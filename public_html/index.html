@@ -20,7 +20,7 @@ body {margin: 0; background-image: url("1000_F_354437855_7RX8IxBoGJU4TOF1q4DTIru
 #navbar {
   background-color:gray;
   position: fixed;
-  top: 0px;
+  top: 10px;
   width: 100%;
   display: block;
   transition: top 0.3s;
@@ -43,6 +43,22 @@ body {margin: 0; background-image: url("1000_F_354437855_7RX8IxBoGJU4TOF1q4DTIru
 </style>
 
 
+<div id="navbar">
+  <a href="#home">Projekti</a>
+  <a href="otrais.html">Tēma</a>
+</div>
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 0) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "fixed";
+  }
+}
+</script>
         <br>
 <br>
 <br>
