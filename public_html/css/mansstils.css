@@ -6,3 +6,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Created on : Mar 19, 2026, 2:31:12 PM
     Author     : atolbert
 */
+body {
+    background-image: thistle;
+}
+h1 {
+    color: linen;
+    
+}
