@@ -13,12 +13,12 @@ html, body {
 }
 body {
 /* 1. The "Jump Out" Path */
-    background-image: url("https://as1.ftcdn.net/jpg/04/41/73/98/1000_F_441739871_ID9i5ggbqZRYvzWdLfUDi793t4P4uafD.jpg") !important;
+    background-image: url(../images/back.png) !important;
 
     /* 2. Make sure the image covers the whole screen */
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
 
     /* 3. Force the body to be at least the height of the screen */
     min-height: 100vh;
