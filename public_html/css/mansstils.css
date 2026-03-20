@@ -17,3 +17,24 @@ body {
 h1 {
     color: black;
 }
+html{
+    scroll-behavior: smooth;
+}
+#inkscape {
+    scroll-margin-top: 50px;
+}
+#gimp {
+    scroll-margin-top: 50px;
+}
+#tekstapstrade {
+    scroll-margin-top: 50px;
+}
+#excel {
+    scroll-margin-top: 50px;
+}
+#trisd {
+    scroll-margin-top: 50px;
+}
+#video {
+    scroll-margin-top: 50px;
+}
