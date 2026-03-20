@@ -8,11 +8,20 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 */
 body {
     background-image: url("../images/back.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-    color: black;
+/* 1. The "Jump Out" Path */
+    background-image: url("../images/back.png");
+
+    /* 2. Make sure the image covers the whole screen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* 3. Force the body to be at least the height of the screen */
+    min-height: 100vh;
+    margin: 0;
+
+    /* 4. Temporary fallback color to see if the CSS is even applying */
+    background-color: gainsboro; 
 }
 h1 {
     color: black;
