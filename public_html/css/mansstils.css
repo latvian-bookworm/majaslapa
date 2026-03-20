@@ -8,7 +8,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 */
 body {
 /* 1. The "Jump Out" Path */
-    background-image: url("https://as1.ftcdn.net/jpg/04/41/73/98/1000_F_441739871_ID9i5ggbqZRYvzWdLfUDi793t4P4uafD.jpg");
+    background-image: url("https://as1.ftcdn.net/jpg/04/41/73/98/1000_F_441739871_ID9i5ggbqZRYvzWdLfUDi793t4P4uafD.jpg") !important;
 
     /* 2. Make sure the image covers the whole screen */
     background-size: cover;
