@@ -12,19 +12,12 @@ html, body {
     padding: 0;
 }
 body {
-/* 1. The "Jump Out" Path */
     background-image: url(../images/back.png) !important;
-
-    /* 2. Make sure the image covers the whole screen */
     background-size: cover;
     background-position: center;
     background-repeat:repeat;
-
-    /* 3. Force the body to be at least the height of the screen */
     min-height: 100vh;
     margin: 0;
-
-    /* 4. Temporary fallback color to see if the CSS is even applying */
     background-color: gainsboro; 
 }
 h1 {
